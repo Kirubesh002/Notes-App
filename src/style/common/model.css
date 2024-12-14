@@ -1,0 +1,113 @@
+/* General container styling */
+.model-container {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid var(--clr-border-color);
+    border-radius: 8px;
+    background-color: var(--clr-app-background);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .card-title{
+    background-color: var(--clr-model-color);
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid var(--clr-border-color);
+    
+  }
+  .model{
+    padding: 20px;
+  }
+
+  /* Title */
+  .model-title {
+    font-size: var( --Header-font);
+ 
+    color: var(--clr-primary);
+    text-align: center;
+    margin: 16 0;
+    margin-top: 0;
+  }
+  
+  /* Input groups */
+  .model-input-group {
+    margin-bottom: 15px;
+  }
+  
+  .model-label {
+    display: block;
+    font-size: var(--input-text-default);
+    color: var(--clr-primary);
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .model-input {
+    width: 93%;
+    padding: 10px;
+    border: 1px solid var(--clr-border-color);
+    border-radius: 7px;
+    font-size: 14px;
+    color: var(--clr-primary, #333);
+}
+
+.model-input:focus {
+      border-radius: 12px;
+    border-color: var(--clr-secondary);
+    outline: none;
+  }
+  
+  /* Error message */
+  .model-error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .model-buttons {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 20px;
+    gap: 19px;
+}
+  
+  
+  .model-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--clr-primary);
+    background-color: var(--clr-background-color);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 35%;
+  }
+  
+  .model-btn:hover {
+    background-color: var(--clr-secondary-dark) !important;
+    /* border: 1px solid var(--clr-border-color); */
+  }
+  
+
+  /* home */
+/* add */
+
+  
+  
+.modalContent {
+  padding: 20px 20px 1px 20px;
+  /* min-height: 380px !important; */
+}
+.searchModal {
+  position: relative;
+  display: grid;
+  margin: auto;
+  margin-bottom: 20px;
+}

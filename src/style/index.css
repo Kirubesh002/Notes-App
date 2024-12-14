@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  overflow-x: hidden !important;
+  height: 100vh;
+  background-color: var(--clr-app-background);
+ 
+}
+:root{
+  outline: none;
+  background-size: cover;
+  background-position: center;
+  /* color */
+  --clr-app-background: #f4f1de;
+  --clr-background-color: #e9b384;
+  --clr-model-color:#f3d1b5;
+  --clr-border-color: #594432;
+  --clr-navbar-color: #a1ccd2;
+
+  --clr-primary: #594432;
+  --clr-secondary: #24606d;
+
+  --clr-error: #fa4343;
+  --clr-green: #36dd69;
+  /* --clr-background: #ffffff;
+  --clr-background-hover: #ffffff;
+  --clr-sec-bg: #e8ecf3;
+  --clr-background-dark: #4969a2;
+  --clr-container-bg: #d1d9e8;
+  --clr-warning-bg: antiquewhite;
+  
+  --clr-secondary-bg: #d1d9e82b;
+  --clr-blue-lite: #768eb9; */
+
+  /* font */
+  --Header-font: 24px;
+  --sub-header: 18px;
+  --menu-font: 15px;
+  --normal-font: 16px;
+  --default-font: 14px;
+  --sub-default-font: 14px;
+  --table-head: 13px;
+  --table-content: 15px;
+  --input-text-default: 14px;
+  --button-font: 16px;
+  --modal-default: 12px;
+  --modal-content: 13px;
+  --modal-rout: 10px;
+}

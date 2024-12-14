@@ -1,0 +1,74 @@
+.btnPrimary {
+    border-radius: 30px;
+    background: var(--clr-primary);
+    font-size: 12px;
+    padding: 5px 15px;
+    color: var(--clr-background);
+    font-weight: 400;
+  }
+  .btnPrimary:hover {
+    background: var(--clr-primary-hover);
+  }
+  
+  .btnPrimary.smBt {
+    border-radius: 30px;
+    background: var(--clr-primary);
+    font-size: 10px;
+    padding: 5px 13px !important;
+    color: var(--clr-background);
+    font-weight: 400;
+  }
+  /* .btnUpcomingAutopay:hover{border-color:#1fca62; color:#1fca62;} */
+  
+  .primaryBt {
+    border-radius: 30px;
+    border-radius: 30px;
+    background: var(--clr-primary);
+    font-size: 13px;
+    padding: 8px 35px;
+    color: var(--clr-background);
+    font-weight: 500;
+  }
+  .primaryBt:hover {
+    background: var(--clr-primary-hover);
+  }
+  .mismatchedIconBt {
+    background: transparent;
+    display: flex;
+  }
+  
+  .deleteBtnCard {
+    position: absolute;
+    top: -5px;
+    right: -4px;
+    border: solid 1px #d1d9e8;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    background: var(--clr-deleteIcon-color);
+  }
+  .deleteBtnCard:hover {
+    background: #eef4ff;
+    border: solid 1px #7f94bb;
+  }
+  
+  .backBt {
+    background: transparent;
+    margin-right: 7px;
+    padding: 0px;
+  }
+  .backBt img {
+    width: 20px;
+    margin-top: 2px;
+    display: block;
+    margin-right: 5px;
+  }
+  
+  .historyBackbt {
+    position: absolute;
+    top: 26px;
+    left: 23px;
+  }
+  

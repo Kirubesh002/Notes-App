@@ -1,0 +1,25 @@
+.dFlex{
+    display: flex;
+    align-items: center;
+
+}
+.alinCen{
+    display: flex;
+    
+}
+.fw600{
+    font-weight: 600;
+}
+.rout{
+    font-size: var(--modal-default);
+    color: var(--clr-background-color);
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+.rout span{
+    color: var(--clr-primary);
+}
+textarea{
+    max-width: 93%;
+}
